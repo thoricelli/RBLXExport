@@ -1,2 +1,2 @@
 # RBLXExport
-Exports the HTTP temp files to audio/images
+Exports the HTTP Roblox temp files to audio/images
