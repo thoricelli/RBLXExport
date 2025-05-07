@@ -16,7 +16,7 @@ if not os.path.isdir(ExportPath):
 arr = os.listdir("http/")
 for i in arr:
 	if not os.path.isfile(ExportPath + i):
-		f = open("http/" + i,"r")
+		f = open("http/" + i, errors="ignore")
 		lines = 0
 		curlines = 0
 		for lines in f:
@@ -47,4 +47,3 @@ for i in arr:
 				break
 		f.close()
 print("Done!")
-raw_input("Press Enter to continue...")
